@@ -5,6 +5,8 @@ import ProjectCard from "./ProjectCard"
 import ScrollReveal from "./ScrollReveal"
 import ProjectSkeleton from "./ProjectSkeleton"
 import { useState, useEffect, useRef } from "react"
+import { useIsMobile } from "@/hooks/use-mobile"
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
 
 export default function Projects() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +24,8 @@ export default function Projects() {
     return () => clearTimeout(timer);
   }, []);
 
+  const isMobile = useIsMobile();
+  
   return (
     <section ref={ref} id="projects" className="py-12 sm:py-20 relative overflow-hidden">
       {/* Parallax Background elements */}
@@ -48,15 +52,44 @@ export default function Projects() {
         </ScrollReveal>
 
         <ScrollReveal delay={200}>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
-            {isLoading ? (
-              <>
-                {[...Array(6)].map((_, i) => (
-                  <ProjectSkeleton key={i} />
-                ))}
-              </>
-            ) : (
-              projects.map((project, index) => (
+          {isLoading ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+              {[...Array(6)].map((_, i) => (
+                <ProjectSkeleton key={i} />
+              ))}
+            </div>
+          ) : isMobile ? (
+            <div className="px-2">
+              <Carousel
+                opts={{
+                  align: "start",
+                  containScroll: "trimSnaps",
+                }}
+                className="w-full"
+              >
+                <CarouselContent className="-ml-1">
+                  {projects.map((project, index) => (
+                    <CarouselItem key={project.slug} className="pl-4 basis-1/1.5">
+                      <div className="p-1">
+                        <ProjectCard
+                          title={project.title}
+                          description={project.description}
+                          image={project.image}
+                          category={project.category}
+                          technologies={project.technologies}
+                          liveUrl={project.liveUrl}
+                          slug={project.slug}
+                          index={index}
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+              </Carousel>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+              {projects.map((project, index) => (
                 <ProjectCard
                   key={project.slug}
                   title={project.title}
@@ -68,9 +101,9 @@ export default function Projects() {
                   slug={project.slug}
                   index={index}
                 />
-              ))
-            )}
-          </div>
+              ))}
+            </div>
+          )}
         </ScrollReveal>
 
         {/* View All Projects Button */}
