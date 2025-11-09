@@ -114,23 +114,26 @@ export default function Hero() {
         </div>
 
         {/* Sliding Project Gallery with Fade Effects */}
-        <div className="relative overflow-hidden py-12">
+        <div className="relative overflow-hidden py-8 sm:py-12">
           {/* Left Fade Gradient */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none" />
           
           {/* Right Fade Gradient */}
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
           
           <motion.div
-            className="flex gap-6"
+            className="flex gap-4 sm:gap-6 items-center"
+            style={{
+              width: 'max-content',
+            }}
             animate={{
-              x: [0, -2000],
+              x: [0, -1200],
             }}
             transition={{
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 30,
+                duration: 40,
                 ease: "linear",
               },
             }}
@@ -138,7 +141,7 @@ export default function Hero() {
             {[...projects, ...projects].map((project, index) => (
               <motion.div
                 key={`${project.slug}-${index}`}
-                className="flex-shrink-0 w-[400px] h-[250px] rounded-xl overflow-hidden shadow-lg"
+                className="flex-shrink-0 w-[180px] h-[120px] sm:w-[300px] sm:h-[200px] md:w-[350px] md:h-[220px] lg:w-[400px] lg:h-[250px] rounded-xl overflow-hidden shadow-lg"
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
                 transition={{ duration: 0.3 }}
               >
@@ -146,6 +149,7 @@ export default function Hero() {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </motion.div>
             ))}
