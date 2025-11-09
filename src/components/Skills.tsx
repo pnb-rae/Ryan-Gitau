@@ -55,23 +55,6 @@ export default function Skills() {
           </div>
         </ScrollReveal>
 
-        {/* Skill Proficiency Bars */}
-        <ScrollReveal delay={200}>
-          <div className="mb-16">
-            <h3 className="text-xl sm:text-2xl font-bold text-center mb-8">Core Competencies</h3>
-            <div className="max-w-2xl mx-auto">
-              {primarySkills.map((skill, index) => (
-                <InteractiveSkillBar
-                  key={skill.name}
-                  skill={skill.name}
-                  percentage={skill.percentage}
-                  delay={index * 100}
-                />
-              ))}
-            </div>
-          </div>
-        </ScrollReveal>
-
         {/* Skills Grid */}
         <ScrollReveal delay={400}>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
