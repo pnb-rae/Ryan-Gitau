@@ -59,18 +59,18 @@ export default function Projects() {
               ))}
             </div>
           ) : isMobile ? (
-            <div className="px-2">
+            <div className="px-1 sm:px-2">
               <Carousel
                 opts={{
                   align: "start",
-                  containScroll: "trimSnaps",
+                  containScroll: "keepSnaps",
                 }}
                 className="w-full"
               >
                 <CarouselContent className="-ml-1">
                   {projects.map((project, index) => (
-                    <CarouselItem key={project.slug} className="pl-4 basis-1/1.5">
-                      <div className="p-1">
+                    <CarouselItem key={project.slug} className="pl-3 basis-[85%] sm:basis-1/2 md:basis-1/3">
+                      <div className="p-1 h-full">
                         <ProjectCard
                           title={project.title}
                           description={project.description}
