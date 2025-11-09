@@ -90,12 +90,17 @@ export default function ProjectDetails() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3 }}
-            className="mb-16 rounded-2xl overflow-hidden shadow-2xl"
+            className="mb-16 rounded-2xl overflow-hidden shadow-2xl flex justify-center items-center bg-background"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-auto"
+              className="max-w-full max-h-[80vh] w-auto h-auto object-contain"
+              style={{ width: 'auto', height: 'auto' }}
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+              }}
             />
           </motion.div>
 
