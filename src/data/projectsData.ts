@@ -9,6 +9,20 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
+    slug: "stay-africa",
+    title: "Stay Africa",
+    description: "Discover and book unique accommodations across Africa. From luxury safari lodges to beachfront villas, find your perfect African getaway with Stay Africa's curated selection of properties.",
+    image: "/lovable-uploads/stay-africa.png", // Please add this image to the public/lovable-uploads/ directory
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://stay-africa.vercel.app/",
+    featured: true,
+    category: "Travel & Hospitality",
+    client: "Stay Africa",
+    role: "Full-Stack Developer",
+    deliverables: ["Property Listings", "Booking System", "User Authentication", "Payment Integration"],
+    gallery: ["/lovable-uploads/stay-africa.png"]
+  },
+  {
     slug: "nexus-scale",
     title: "Nexus Scale",
     description: "Nexus Scale is a cutting-edge AI platform that helps businesses scale their operations through intelligent automation and data-driven insights. The platform offers powerful tools for growth optimization and performance tracking.",
