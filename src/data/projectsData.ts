@@ -9,6 +9,20 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
+    slug: "nexus-scale",
+    title: "Nexus Scale",
+    description: "Nexus Scale is a cutting-edge AI platform that helps businesses scale their operations through intelligent automation and data-driven insights. The platform offers powerful tools for growth optimization and performance tracking.",
+    image: "/lovable-uploads/nexus-scale.png",
+    technologies: ["React", "Next.js", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
+    liveUrl: "https://www.nexuscale.ai/",
+    featured: true,
+    category: "AI Platform",
+    client: "Nexus Scale",
+    role: "Full-Stack Developer",
+    deliverables: ["AI Integration", "Analytics Dashboard", "Automation Tools", "API Development"],
+    gallery: ["/lovable-uploads/nexus-scale.png"]
+  },
+  {
     slug: "ipmtti",
     title: "IPMTTI",
     description: "International Plant Machinery & Technical Training Institute - Kenya's premier technical training institute offering NITA-accredited programs in driving, heavy plant operation, engineering, and hospitality.",
@@ -49,34 +63,6 @@ export const projects: Project[] = [
     role: "Full-Stack Developer",
     deliverables: ["Marketplace Platform", "Vendor Onboarding", "Shopping Cart", "Order Management"],
     gallery: ["/lovable-uploads/gikomba-project.png"]
-  },
-  {
-    slug: "wealthwise",
-    title: "WealthWise",
-    description: "AI-powered financial platform that combines emotional intelligence with smart tracking. Features expense categorization, goal setting, and community support for emerging markets.",
-    image: "/lovable-uploads/eb62d664-62d2-41c7-aeb3-41dfd6fa1920.png",
-    technologies: ["React", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
-    liveUrl: "https://wealth-wise-io-k8oq.vercel.app/",
-    featured: true,
-    category: "FinTech",
-    client: "WealthWise Inc",
-    role: "Full-Stack Developer",
-    deliverables: ["AI Integration", "Financial Dashboard", "Goal Tracking", "Community Features"],
-    gallery: ["/lovable-uploads/eb62d664-62d2-41c7-aeb3-41dfd6fa1920.png"]
-  },
-  {
-    slug: "styles-n-tunes",
-    title: "Styles n Tunes",
-    description: "Fashion e-commerce platform where music meets streetwear. Features artist collaborations, exclusive drops, and urban fashion culture with seamless shopping experience.",
-    image: "/lovable-uploads/040941f4-c14e-4fbf-8d76-aa681a8d7ae9.png",
-    technologies: ["React", "Next.js", "Commerce.js", "Tailwind CSS", "Stripe"],
-    liveUrl: "https://style-n-tunes-iyk7.vercel.app/",
-    featured: true,
-    category: "E-Commerce",
-    client: "Styles n Tunes",
-    role: "Lead Developer",
-    deliverables: ["Online Store", "Payment Processing", "Product Management", "Artist Portal"],
-    gallery: ["/lovable-uploads/040941f4-c14e-4fbf-8d76-aa681a8d7ae9.png"]
   },
   {
     slug: "kinywa-concept",
