@@ -70,7 +70,7 @@ export const projects: Project[] = [
     description: "Kenya's largest second-hand clothing market, now online. Connecting vendors and buyers directly with an easy-to-use platform for browsing and purchasing quality second-hand items.",
     image: "/lovable-uploads/gikomba-project.png",
     technologies: ["React", "Next.js", "TypeScript", "E-commerce", "Vercel"],
-    liveUrl: "https://gikomba-blond.vercel.app/",
+    liveUrl: "https://gikomba-beryl.vercel.app/",
     featured: true,
     category: "E-Commerce",
     client: "Gikomba Vendors",
