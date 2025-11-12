@@ -12,7 +12,7 @@ export const projects: Project[] = [
     slug: "nexus-scale",
     title: "Nexus Scale",
     description: "Nexus Scale is a cutting-edge AI platform that helps businesses scale their operations through intelligent automation and data-driven insights. The platform offers powerful tools for growth optimization and performance tracking.",
-    image: "/lovable-uploads/nexus-scale.png",
+    image: "/lovable-uploads/nexus-scale.png.png",
     technologies: ["React", "Next.js", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
     liveUrl: "https://www.nexuscale.ai/",
     featured: true,
@@ -20,7 +20,7 @@ export const projects: Project[] = [
     client: "Nexus Scale",
     role: "Full-Stack Developer",
     deliverables: ["AI Integration", "Analytics Dashboard", "Automation Tools", "API Development"],
-    gallery: ["/lovable-uploads/nexus-scale.png"]
+    gallery: ["/lovable-uploads/nexus-scale.png.png"]
   },
   {
     slug: "ipmtti",
