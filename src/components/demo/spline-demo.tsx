@@ -2,18 +2,21 @@
 
 import { SplineScene } from "@/components/ui/spline"
 import { Card } from "@/components/ui/card"
-import { Spotlight } from "@/components/ui/spotlight"
-import { GlowingEffect } from "@/components/ui/glowing-effect"
-import { Box, Move3D, Zap, Sparkles } from "lucide-react"
- 
+import { Box, Move3D, Search, Settings, Sparkles, Zap } from "lucide-react";
+import { GlowingEffect } from "@/components/ui/glowing-effect";
+import { cn } from "@/lib/utils";
+import { Spotlight } from "@/components/ui/spotlight";
+
 export function SplineSceneBasic() {
   return (
     <div className="space-y-8">
       <Card className="w-full h-[500px] bg-black/[0.96] relative overflow-hidden">
-        <Spotlight
-          className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="white"
-        />
+        <div className="absolute inset-0">
+          <Spotlight
+            className="-top-40 left-0 md:left-60 md:-top-20"
+            fill="white"
+          />
+        </div>
         
         <div className="flex h-full flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-6 md:p-8 relative z-10 flex flex-col justify-center">
@@ -68,24 +71,25 @@ interface FeatureCardProps {
 
 function FeatureCard({ icon, title, description, color }: FeatureCardProps) {
   return (
-    <div className="relative h-full min-h-[180px] rounded-xl">
-      <GlowingEffect
-        spread={30}
-        glow={true}
-        disabled={false}
-        proximity={40}
-        inactiveZone={0.5}
-        borderWidth={2}
-        variant="white"
-        className="rounded-xl"
-      />
-      <div className="relative h-full p-6 bg-black/50 backdrop-blur-sm rounded-xl border border-white/10 flex flex-col">
-        <div className={`w-12 h-12 rounded-lg ${color.includes('from-') ? `bg-gradient-to-br ${color}` : 'bg-primary'} flex items-center justify-center mb-4`}>
+    <GlowingEffect 
+      variant={
+        color.includes('purple') ? 'secondary' : 
+        color.includes('blue') ? 'primary' : 'accent'
+      }
+      intensity="medium"
+      className="h-full"
+    >
+      <div className="relative h-full p-6 bg-black/50 backdrop-blur-sm rounded-xl border border-white/10 flex flex-col transition-all duration-300 hover:border-white/20 hover:shadow-lg hover:shadow-purple-500/10">
+        <div className={`w-12 h-12 rounded-lg ${
+          color.includes('from-') 
+            ? `bg-gradient-to-br ${color}` 
+            : 'bg-primary'
+        } flex items-center justify-center mb-4`}>
           {icon}
         </div>
         <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
         <p className="text-neutral-400 text-sm">{description}</p>
       </div>
-    </div>
+    </GlowingEffect>
   )
 }
