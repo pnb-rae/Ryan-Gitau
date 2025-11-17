@@ -67,7 +67,7 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 transition-all"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 <Mail className="mr-2 h-5 w-5" />
                 Contact
