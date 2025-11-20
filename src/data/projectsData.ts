@@ -9,18 +9,18 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
-    slug: "stay-africa",
-    title: "Stay Africa",
-    description: "Discover and book unique accommodations across Africa. From luxury safari lodges to beachfront villas, find your perfect African getaway with Stay Africa's curated selection of properties.",
-    image: "/lovable-uploads/stay-africa.png", // Please add this image to the public/lovable-uploads/ directory
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
-    liveUrl: "https://stay-africa.vercel.app/",
+    slug: "az-african-store",
+    title: "AZ African Store",
+    description: "Online marketplace specializing in authentic African food products in the UK. Offering a wide range of fresh, organic, and hard-to-find African ingredients with convenient home delivery.",
+    image: "/lovable-uploads/az-african-store.png",
+    technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
+    liveUrl: "https://azafricanstore.com/",
     featured: true,
-    category: "Travel & Hospitality",
-    client: "Stay Africa",
-    role: "Full-Stack Developer",
-    deliverables: ["Property Listings", "Booking System", "User Authentication", "Payment Integration"],
-    gallery: ["/lovable-uploads/stay-africa.png"]
+    category: "E-Commerce",
+    client: "AZ African Store",
+    role: "Web Developer",
+    deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
+    gallery: ["/lovable-uploads/az-african-store.png"]
   },
   {
     slug: "nexus-scale",
@@ -49,20 +49,6 @@ export const projects: Project[] = [
     role: "Full-Stack Developer",
     deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
     gallery: ["/lovable-uploads/ipmtti-project.png"]
-  },
-  {
-    slug: "stay-kenya",
-    title: "Stay Kenya",
-    description: "Discover Kenya's hidden treasures - from the majestic Masai Mara to pristine coastal beaches. Experience luxury hospitality in Africa's most breathtaking destinations with curated accommodations and travel experiences.",
-    image: "/lovable-uploads/staykenya-project.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    liveUrl: "https://staykenya.vercel.app/",
-    featured: true,
-    category: "Travel & Tourism",
-    client: "Stay Kenya",
-    role: "Lead Developer",
-    deliverables: ["Booking System", "Property Listings", "Payment Integration", "User Dashboard"],
-    gallery: ["/lovable-uploads/staykenya-project.png"]
   },
   {
     slug: "gikomba-market",
@@ -177,17 +163,17 @@ export const projects: Project[] = [
     gallery: ["/lovable-uploads/artistry-project.png"]
   },
   {
-    slug: "az-african-store",
-    title: "AZ African Store",
-    description: "Online marketplace specializing in authentic African food products in the UK. Offering a wide range of fresh, organic, and hard-to-find African ingredients with convenient home delivery.",
-    image: "/lovable-uploads/az-african-store.png",
-    technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
-    liveUrl: "https://azafricanstore.com/",
+    slug: "stay-africa",
+    title: "Stay Africa",
+    description: "Discover and book unique accommodations across Africa. From luxury safari lodges to beachfront villas, find your perfect African getaway with Stay Africa's curated selection of properties.",
+    image: "/lovable-uploads/stay-africa.png",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://stay-africa.vercel.app/",
     featured: true,
-    category: "E-Commerce",
-    client: "AZ African Store",
-    role: "Web Developer",
-    deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
-    gallery: ["/lovable-uploads/az-african-store.png"]
+    category: "Travel & Hospitality",
+    client: "Stay Africa",
+    role: "Full-Stack Developer",
+    deliverables: ["Property Listings", "Booking System", "User Authentication", "Payment Integration"],
+    gallery: ["/lovable-uploads/stay-africa.png"]
   }
 ];
