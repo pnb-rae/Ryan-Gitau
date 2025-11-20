@@ -175,5 +175,19 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     deliverables: ["Gallery System", "Artist Profiles", "Artwork Showcase", "Responsive Design"],
     gallery: ["/lovable-uploads/artistry-project.png"]
+  },
+  {
+    slug: "az-african-store",
+    title: "AZ African Store",
+    description: "Online marketplace specializing in authentic African food products in the UK. Offering a wide range of fresh, organic, and hard-to-find African ingredients with convenient home delivery.",
+    image: "/lovable-uploads/az-african-store-placeholder.png", // Please replace with actual image
+    technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
+    liveUrl: "https://azafricanstore.com/",
+    featured: true,
+    category: "E-Commerce",
+    client: "AZ African Store",
+    role: "Web Developer",
+    deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
+    gallery: ["/lovable-uploads/az-african-store-placeholder.png"]
   }
 ];
