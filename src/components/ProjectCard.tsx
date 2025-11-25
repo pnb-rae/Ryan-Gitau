@@ -41,15 +41,15 @@ export default function ProjectCard({
           className="card-gradient rounded-2xl overflow-hidden h-full flex flex-col shadow-lg hover:shadow-2xl hover:shadow-primary/20"
         >
           {/* Image */}
-          <div className="relative overflow-hidden aspect-[16/10]">
+          <div className="relative h-64 overflow-visible flex items-center justify-center bg-muted/30 p-4">
             <motion.img
               src={image}
               alt={title}
-              className="w-full h-full object-cover"
-              whileHover={{ scale: 1.08 }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
+              className="max-w-full max-h-full object-contain"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent opacity-70 group-hover:opacity-50 transition-opacity" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent opacity-70 group-hover:opacity-30 transition-opacity" />
             
             {/* Category Badge */}
             <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
