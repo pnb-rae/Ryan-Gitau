@@ -139,19 +139,15 @@ export default function Hero() {
             }}
           >
             {[...projects, ...projects].map((project, index) => (
-              <motion.div
+              <motion.img
                 key={`${project.slug}-${index}`}
-                className="flex-shrink-0 w-[180px] h-[180px] sm:w-[300px] sm:h-[250px] md:w-[350px] md:h-[280px] lg:w-[400px] lg:h-[300px] rounded-xl overflow-hidden shadow-lg bg-muted/30 flex items-center justify-center p-4"
-                whileHover={{ scale: 1.02, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
+                src={project.image}
+                alt={project.title}
+                className="flex-shrink-0 w-auto max-h-[180px] sm:max-h-[250px] md:max-h-[280px] lg:max-h-[300px] rounded-lg shadow-md"
+                whileHover={{ scale: 1.03, boxShadow: "0 5px 15px rgba(0,0,0,0.1)" }}
                 transition={{ duration: 0.3 }}
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="max-w-full max-h-full object-contain"
-                  loading="lazy"
-                />
-              </motion.div>
+                loading="lazy"
+              />
             ))}
           </motion.div>
           
