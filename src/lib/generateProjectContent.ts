@@ -48,15 +48,10 @@ ${deliverables && deliverables.length > 0
   // Generate execution section
   const execution = `
 The development approach emphasized iterative design and agile methodologies. Using ${technologies[0] || 'modern technologies'}, 
-the application was built with attention to:
-
-- **User Experience**: Intuitive navigation and responsive layouts across all devices
-- **Performance**: Optimized loading times and efficient resource management  
-- **Scalability**: Architecture designed to grow with business needs
-- **Code Quality**: Clean, maintainable codebase following industry best practices
+the application was built with a strong focus on delivering an exceptional user experience through intuitive navigation and responsive layouts across all devices. We prioritized performance with optimized loading times and efficient resource management, while ensuring the architecture was designed for scalability to grow alongside business needs. The codebase was developed with clean, maintainable code following industry best practices.
 
 ${technologies.length > 3 
-  ? `Additional technologies integrated include ${technologies.slice(3).join(', ')}.`
+  ? `The solution also integrates additional technologies including ${technologies.slice(3).join(', ')}.`
   : ''
 }
   `.trim();
