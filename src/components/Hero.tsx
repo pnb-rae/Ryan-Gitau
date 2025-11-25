@@ -141,14 +141,14 @@ export default function Hero() {
             {[...projects, ...projects].map((project, index) => (
               <motion.div
                 key={`${project.slug}-${index}`}
-                className="flex-shrink-0 w-[180px] h-[120px] sm:w-[300px] sm:h-[200px] md:w-[350px] md:h-[220px] lg:w-[400px] lg:h-[250px] rounded-xl overflow-hidden shadow-lg"
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
+                className="flex-shrink-0 w-[180px] h-[180px] sm:w-[300px] sm:h-[250px] md:w-[350px] md:h-[280px] lg:w-[400px] lg:h-[300px] rounded-xl overflow-hidden shadow-lg bg-muted/30 flex items-center justify-center p-4"
+                whileHover={{ scale: 1.02, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
                 transition={{ duration: 0.3 }}
               >
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="max-w-full max-h-full object-contain"
                   loading="lazy"
                 />
               </motion.div>
