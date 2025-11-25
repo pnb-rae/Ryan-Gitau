@@ -128,7 +128,7 @@ export default function Hero() {
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 30, // Slightly faster to compensate for more images
+                duration: 90, // Slowed down significantly for better visibility
                 ease: "linear",
               },
             }}
