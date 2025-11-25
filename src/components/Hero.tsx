@@ -143,7 +143,7 @@ export default function Hero() {
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 90, // Slowed down significantly for better visibility
+                duration: 180, // Further slowed down for a more relaxed movement
                 ease: "linear",
               },
             }}
