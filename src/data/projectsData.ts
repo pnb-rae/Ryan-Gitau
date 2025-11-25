@@ -9,18 +9,46 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
-    slug: "js-recipe-box",
-    title: "J's Recipe Box",
-    description: "A modern recipe sharing platform where users can discover, share, and save their favorite recipes. Features include user authentication, recipe search, and a beautiful, responsive interface.",
-    image: "/lovable-uploads/js-recipe-box.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    liveUrl: "https://j-s-recipe-box.vercel.app/",
+    slug: "stay-africa",
+    title: "Stay Africa",
+    description: "A comprehensive travel and accommodation platform showcasing the best of African destinations. Features include property listings, travel guides, and booking services across the continent.",
+    image: "/lovable-uploads/stay-africa.png",
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "https://stay-africa.vercel.app/",
     featured: true,
-    category: "Web Application",
+    category: "Travel & Accommodation",
     client: "Personal Project",
     role: "Full-Stack Developer",
-    deliverables: ["User Authentication", "Recipe Management", "Search Functionality", "Responsive Design"],
-    gallery: ["/lovable-uploads/js-recipe-box.png"]
+    deliverables: ["Property Listings", "Booking System", "Travel Guides", "Responsive Design"],
+    gallery: ["/lovable-uploads/stay-africa.png"]
+  },
+  {
+    slug: "ipmtti",
+    title: "IPMTTI",
+    description: "International Plant Machinery & Technical Training Institute - Kenya's premier technical training institute offering NITA-accredited programs in driving, heavy plant operation, engineering, and hospitality.",
+    image: "/lovable-uploads/ipmtti-project.png",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
+    liveUrl: "https://ipmtti.co.ke/",
+    featured: true,
+    category: "Education Platform",
+    client: "IPMTTI Institute",
+    role: "Full-Stack Developer",
+    deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
+    gallery: ["/lovable-uploads/ipmtti-project.png"]
+  },
+  {
+    slug: "home-deco",
+    title: "Home Deco",
+    description: "An elegant e-commerce platform for home decor and interior design. Home Deco offers a curated selection of furniture, lighting, and accessories to help users create their perfect living space with a modern and sophisticated aesthetic.",
+    image: "/lovable-uploads/home-deco.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://home-deco-sigma.vercel.app/",
+    featured: true,
+    category: "E-Commerce",
+    client: "Personal Project",
+    role: "Frontend Developer",
+    deliverables: ["Product Showcase", "Shopping Experience", "Responsive Design", "UI/UX Implementation"],
+    gallery: ["/lovable-uploads/home-deco.png"]
   },
   {
     slug: "nova-cart",
@@ -65,20 +93,6 @@ export const projects: Project[] = [
     gallery: ["/lovable-uploads/bravos.png"]
   },
   {
-    slug: "home-deco",
-    title: "Home Deco",
-    description: "An elegant e-commerce platform for home decor and interior design. Home Deco offers a curated selection of furniture, lighting, and accessories to help users create their perfect living space with a modern and sophisticated aesthetic.",
-    image: "/lovable-uploads/home-deco.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    liveUrl: "https://home-deco-sigma.vercel.app/",
-    featured: true,
-    category: "E-Commerce",
-    client: "Personal Project",
-    role: "Frontend Developer",
-    deliverables: ["Product Showcase", "Shopping Experience", "Responsive Design", "UI/UX Implementation"],
-    gallery: ["/lovable-uploads/home-deco.png"]
-  },
-  {
     slug: "az-african-store",
     title: "AZ African Store",
     description: "Online marketplace specializing in authentic African food products in the UK. Offering a wide range of fresh, organic, and hard-to-find African ingredients with convenient home delivery.",
@@ -105,20 +119,6 @@ export const projects: Project[] = [
     role: "Full-Stack Developer",
     deliverables: ["AI Integration", "Analytics Dashboard", "Automation Tools", "API Development"],
     gallery: ["/lovable-uploads/nexus-scale.png"]
-  },
-  {
-    slug: "ipmtti",
-    title: "IPMTTI",
-    description: "International Plant Machinery & Technical Training Institute - Kenya's premier technical training institute offering NITA-accredited programs in driving, heavy plant operation, engineering, and hospitality.",
-    image: "/lovable-uploads/ipmtti-project.png",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
-    liveUrl: "https://ipmtti.co.ke/",
-    featured: true,
-    category: "Education Platform",
-    client: "IPMTTI Institute",
-    role: "Full-Stack Developer",
-    deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
-    gallery: ["/lovable-uploads/ipmtti-project.png"]
   },
   {
     slug: "gikomba-market",
