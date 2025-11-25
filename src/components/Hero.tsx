@@ -97,18 +97,14 @@ export default function Hero() {
           </motion.div>
 
           {/* Hero Photo */}
-          <motion.div
+          <motion.img 
+            src={ryanHero} 
+            alt="Ryan Waweru - Senior Software Engineer"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="flex items-center justify-center w-full lg:w-auto"
-          >
-            <img 
-              src={ryanHero} 
-              alt="Ryan Waweru - Senior Software Engineer"
-              className="w-[80%] max-h-[260px] sm:max-h-[340px] md:max-h-[380px] lg:max-h-[420px] object-contain p-4 md:p-6 shadow-lg rounded-xl mx-auto"
-            />
-          </motion.div>
+            className="w-3/4 max-w-sm lg:max-w-md mx-auto h-auto rounded-2xl shadow-2xl object-cover"
+          />
         </div>
 
         {/* Sliding Project Gallery with Fade Effects */}
