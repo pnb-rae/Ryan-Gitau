@@ -96,20 +96,18 @@ export default function Hero() {
 
           </motion.div>
 
-          {/* Hero Photo with Skill Badges */}
+          {/* Hero Photo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="relative max-w-sm lg:max-w-md mx-auto"
+            className="flex items-center justify-center w-full lg:w-auto"
           >
-            <div className="relative">
-              <img 
-                src={ryanHero} 
-                alt="Ryan Waweru - Senior Software Engineer"
-                className="w-full h-auto rounded-2xl shadow-2xl object-cover"
-              />
-            </div>
+            <img 
+              src={ryanHero} 
+              alt="Ryan Waweru - Senior Software Engineer"
+              className="w-[80%] max-h-[260px] sm:max-h-[340px] md:max-h-[380px] lg:max-h-[420px] object-contain p-4 md:p-6 shadow-lg rounded-xl mx-auto"
+            />
           </motion.div>
         </div>
 
