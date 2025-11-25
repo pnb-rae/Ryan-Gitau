@@ -116,32 +116,35 @@ export default function Hero() {
           <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
           
           <motion.div
-            className="flex gap-4 sm:gap-6 items-center"
+            className="flex gap-6 items-center"
             style={{
               width: 'max-content',
+              padding: '0 50%', // Add padding to center the first 3 images
             }}
             animate={{
-              x: [0, -1200],
+              x: ['0%', '-100%'], // Move by 100% of container width
             }}
             transition={{
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 40,
+                duration: 30, // Slightly faster to compensate for more images
                 ease: "linear",
               },
             }}
           >
-            {projects.filter(project => project.featured).map((project, index) => (
-              <motion.img
+            {[...projects, ...projects].filter(project => project.featured).map((project, index) => (
+              <motion.div 
                 key={`${project.slug}-${index}`}
-                src={project.image}
-                alt={project.title}
-                className="flex-shrink-0 w-auto max-h-[180px] sm:max-h-[250px] md:max-h-[280px] lg:max-h-[300px] rounded-lg shadow-md"
-                whileHover={{ scale: 1.03, boxShadow: "0 5px 15px rgba(0,0,0,0.1)" }}
-                transition={{ duration: 0.3 }}
-                loading="lazy"
-              />
+                className="flex-shrink-0 w-[300px] md:w-[350px] lg:w-[400px]"
+              >
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-auto max-h-[180px] sm:max-h-[250px] md:max-h-[280px] lg:max-h-[300px] object-contain rounded-lg shadow-md bg-muted/30 p-2"
+                  loading="lazy"
+                />
+              </motion.div>
             ))}
           </motion.div>
           
