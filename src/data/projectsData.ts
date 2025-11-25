@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     slug: "stay-africa",
     title: "Stay Africa",
-    description: "A comprehensive travel and accommodation platform showcasing the best of African destinations. Features include property listings, travel guides, and booking services across the continent.",
+    description: "A one-stop travel platform that makes it easy to discover and book unique accommodations across Africa. Whether you're looking for a beachfront villa, safari lodge, or city apartment, Stay Africa connects travelers with authentic local experiences. The platform helps boost tourism by showcasing Africa's diverse destinations while providing a seamless booking experience.",
     image: "/lovable-uploads/stay-africa.png",
     technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "https://stay-africa.vercel.app/",
@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     slug: "ipmtti",
     title: "IPMTTI",
-    description: "International Plant Machinery & Technical Training Institute - Kenya's premier technical training institute offering NITA-accredited programs in driving, heavy plant operation, engineering, and hospitality.",
+    description: "A modern website for Kenya's leading technical training institute, making it easy for students to explore courses in driving, engineering, and hospitality. The platform streamlines course registration and provides clear information about career opportunities, helping bridge the skills gap in technical fields across East Africa.",
     image: "/lovable-uploads/ipmtti-project.png",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
     liveUrl: "https://ipmtti.co.ke/",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
   {
     slug: "home-deco",
     title: "Home Deco",
-    description: "An elegant e-commerce platform for home decor and interior design. Home Deco offers a curated selection of furniture, lighting, and accessories to help users create their perfect living space with a modern and sophisticated aesthetic.",
+    description: "An online store that brings beautiful, high-quality home decor within everyone's reach. Home Deco helps people transform their living spaces with carefully selected furniture and accessories. The platform makes it simple to visualize how items will look in your home, making interior design more accessible and enjoyable for everyone.",
     image: "/lovable-uploads/home-deco.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://home-deco-sigma.vercel.app/",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
   {
     slug: "nova-cart",
     title: "Nova Cart",
-    description: "A modern e-commerce platform with a sleek, user-friendly interface for browsing and purchasing products. Features include product catalog, shopping cart, and secure checkout process.",
+    description: "A modern online shopping experience that makes finding and buying products effortless. Nova Cart combines style with functionality, offering a smooth journey from browsing to checkout. The platform helps small businesses grow by providing them with professional e-commerce tools to showcase their products effectively.",
     image: "/lovable-uploads/nova-cart.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://nova-cart-delta.vercel.app/",
@@ -67,7 +67,7 @@ export const projects: Project[] = [
   {
     slug: "tal3nt",
     title: "Tal3nt",
-    description: "A cutting-edge talent acquisition and management platform that connects employers with top-tier professionals. Features include candidate matching, skill assessment, and streamlined hiring processes.",
+    description: "A smarter way for companies to find the perfect candidates. Tal3nt uses smart matching to connect businesses with skilled professionals, making hiring faster and more efficient. The platform helps job seekers highlight their skills and helps employers find the right talent without the usual recruitment hassle.",
     image: "/lovable-uploads/tal3nt.png",
     technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "AWS"],
     liveUrl: "https://www.tal3nt.xyz/",
@@ -81,7 +81,7 @@ export const projects: Project[] = [
   {
     slug: "bravos",
     title: "Bravos",
-    description: "A modern web application for discovering and sharing exceptional content. Bravos provides a platform for users to explore curated collections, share recommendations, and connect with like-minded individuals.",
+    description: "A vibrant community platform where people discover and share amazing content. Bravos helps users find hidden gems across various interests, from tech innovations to creative arts. It's like having a trusted friend recommend the best content across the internet, all in one place.",
     image: "/lovable-uploads/bravos.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://bravos-11.vercel.app/",
@@ -95,7 +95,7 @@ export const projects: Project[] = [
   {
     slug: "az-african-store",
     title: "AZ African Store",
-    description: "Online marketplace specializing in authentic African food products in the UK. Offering a wide range of fresh, organic, and hard-to-find African ingredients with convenient home delivery.",
+    description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
     image: "/lovable-uploads/az-african-store.png",
     technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
     liveUrl: "https://azafricanstore.com/",
@@ -109,7 +109,7 @@ export const projects: Project[] = [
   {
     slug: "nexus-scale",
     title: "Nexus Scale",
-    description: "Nexus Scale is a cutting-edge AI platform that helps businesses scale their operations through intelligent automation and data-driven insights. The platform offers powerful tools for growth optimization and performance tracking.",
+    description: "A smart business growth platform that helps companies expand efficiently. Nexus Scale uses AI to identify opportunities for automation and improvement, making it easier for businesses to scale without unnecessary complexity. It's like having a team of expert consultants working around the clock to optimize your operations.",
     image: "/lovable-uploads/nexus-scale.png",
     technologies: ["React", "Next.js", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
     liveUrl: "https://www.nexuscale.ai/",
@@ -123,7 +123,7 @@ export const projects: Project[] = [
   {
     slug: "gikomba-market",
     title: "Gikomba Market",
-    description: "Kenya's largest second-hand clothing market, now online. Connecting vendors and buyers directly with an easy-to-use platform for browsing and purchasing quality second-hand items.",
+    description: "Bringing Kenya's famous second-hand clothing market online. Gikomba Market makes it easy to find quality pre-loved fashion at great prices, while helping local vendors reach more customers. The platform preserves the vibrant market experience while adding the convenience of online shopping.",
     image: "/lovable-uploads/gikomba-project.png",
     technologies: ["React", "Next.js", "TypeScript", "E-commerce", "Vercel"],
     liveUrl: "https://gikomba-beryl.vercel.app/",
@@ -137,7 +137,7 @@ export const projects: Project[] = [
   {
     slug: "kinywa-concept",
     title: "Kinywa Concept",
-    description: "Modern web application showcasing innovative design concepts and user experience solutions with clean, contemporary aesthetics.",
+    description: "A showcase of creative web design that demonstrates how good design can make technology feel more human. Kinywa Concept turns complex ideas into beautiful, intuitive digital experiences. Each project is a testament to how thoughtful design can solve real problems while delighting users.",
     image: "/lovable-uploads/ec3738b8-e1bf-45ca-a11f-c4a96b449759.png",
     technologies: ["React", "JavaScript", "CSS3", "HTML5", "Netlify"],
     liveUrl: "https://kinywa-concept.netlify.app/",
@@ -151,7 +151,7 @@ export const projects: Project[] = [
   {
     slug: "thrills-spills-tours",
     title: "Thrills Spills Tours",
-    description: "Adventure tourism platform offering thrilling experiences and guided tours. Features booking system, tour packages, and immersive travel experiences.",
+    description: "Your gateway to unforgettable adventures around the world. Thrills & Spills Tours makes it easy to discover and book exciting experiences, from mountain treks to scuba diving. The platform helps adventure seekers find their next challenge and local guides share their expertise with a global audience.",
     image: "/lovable-uploads/e26eacb4-e786-42fa-8979-02b917ee60ec.png",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
     liveUrl: "https://www.thrillsspillstours.com/",
@@ -165,7 +165,7 @@ export const projects: Project[] = [
   {
     slug: "zero22-thika",
     title: "Zero22 Thika",
-    description: "Business platform providing comprehensive solutions for local enterprises. Features service listings, business management tools, and community connectivity.",
+    description: "A digital hub for local businesses to thrive. Zero22 Thika provides essential tools and connections that help small businesses grow. From managing services to connecting with customers, the platform simplifies the complex world of business management for local entrepreneurs.",
     image: "/lovable-uploads/f9fab85a-a0a8-401f-9208-cdb6d7464c07.png",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vercel", "API"],
     liveUrl: "https://zero22thika.vercel.app/",
@@ -179,7 +179,7 @@ export const projects: Project[] = [
   {
     slug: "pure-fruit",
     title: "Pure Fruit",
-    description: "Fresh fruit delivery platform connecting consumers with local farmers. Features organic produce catalog, subscription services, and farm-to-table tracking.",
+    description: "Farm-fresh fruits delivered straight to your door. Pure Fruit connects health-conscious consumers with local farmers, ensuring you get the freshest seasonal produce while supporting sustainable agriculture. The platform makes eating healthy convenient and helps small-scale farmers reach more customers.",
     image: "/lovable-uploads/7f1309d7-e911-4a4b-a77e-3379910cf797.png",
     technologies: ["React", "Next.js", "TypeScript", "Commerce", "Vercel"],
     liveUrl: "https://purefruit.vercel.app/",
@@ -193,7 +193,7 @@ export const projects: Project[] = [
   {
     slug: "thinkopal-development",
     title: "ThinkOpal Development",
-    description: "Software development consultancy showcasing portfolio of digital solutions, custom applications, and innovative technology implementations.",
+    description: "A technology partner that transforms ideas into powerful digital solutions. ThinkOpal Development specializes in creating custom software that helps businesses work smarter. From concept to launch, we focus on building tools that solve real problems with clean, efficient code.",
     image: "/lovable-uploads/3b3c2315-8f59-4031-888a-244c2c531a64.png",
     technologies: ["React", "JavaScript", "Node.js", "CSS3", "Netlify"],
     liveUrl: "https://thinkopal-development.netlify.app/",
@@ -207,7 +207,7 @@ export const projects: Project[] = [
   {
     slug: "peoples-choice-awards",
     title: "People's Choice Awards",
-    description: "Premier platform celebrating excellence across various categories in Kenya. Features voting system, nominee registration, and event management for recognizing outstanding achievements.",
+    description: "Celebrating Kenya's most inspiring individuals and organizations. The People's Choice Awards platform makes it easy for the public to nominate and vote for their favorites in various categories. The system ensures a fair and transparent voting process while creating excitement around the annual awards ceremony.",
     image: "/lovable-uploads/1cfcf7c6-f778-4c50-bd29-ec4bfc237e4d.png",
     technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Stripe"],
     liveUrl: "https://www.peopleschoiceawards.africa/",
