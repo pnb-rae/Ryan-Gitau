@@ -95,13 +95,10 @@ export default function Footer() {
         <hr className="border-border/50 my-8" />
 
         {/* Copyright */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} Ryan Waweru. All rights reserved.
           </p>
-          <div className="flex items-center gap-1 text-muted-foreground text-sm">
-            Made with <Heart className="w-4 h-4 text-red-500 mx-1" /> in Kenya
-          </div>
         </div>
       </div>
     </footer>
