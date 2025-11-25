@@ -138,7 +138,7 @@ export default function Hero() {
               },
             }}
           >
-            {[...projects, ...projects].map((project, index) => (
+            {projects.filter(project => project.featured).map((project, index) => (
               <motion.img
                 key={`${project.slug}-${index}`}
                 src={project.image}
