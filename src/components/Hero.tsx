@@ -131,36 +131,40 @@ export default function Hero() {
           <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
           
           <motion.div
-            className="flex gap-6 items-center"
+            className="flex items-center"
             style={{
               width: 'max-content',
-              padding: '0 50%', // Add padding to center the first 3 images
+              padding: '0 50%', // Add padding to center the first set of images
             }}
             animate={{
-              x: ['0%', '-100%'], // Move by 100% of container width
+              x: ['0%', '-50.5%'], // Adjusted to account for the gap
             }}
             transition={{
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 180, // Further slowed down for a more relaxed movement
+                duration: 180,
                 ease: "linear",
               },
             }}
           >
-            {[...projects, ...projects].filter(project => project.featured).map((project, index) => (
-              <motion.div 
-                key={`${project.slug}-${index}`}
-                className="flex-shrink-0 w-[300px] md:w-[350px] lg:w-[400px]"
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-auto max-h-[180px] sm:max-h-[250px] md:max-h-[280px] lg:max-h-[300px] object-contain rounded-lg shadow-md bg-muted/30 p-2"
-                  loading="lazy"
-                />
-              </motion.div>
-            ))}
+            <div className="flex gap-6">
+              {[...projects, ...projects].filter(project => project.featured).map((project, index) => (
+                <motion.div 
+                  key={`${project.slug}-${index}`}
+                  className="flex-shrink-0 w-[300px] md:w-[350px] lg:w-[400px]"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-auto max-h-[180px] sm:max-h-[250px] md:max-h-[280px] lg:max-h-[300px] object-contain rounded-lg shadow-md bg-muted/30 p-2"
+                    loading="lazy"
+                  />
+                </motion.div>
+              ))}
+              {/* Add an empty div to create a gap */}
+              <div className="w-[100px] flex-shrink-0"></div>
+            </div>
           </motion.div>
           
           {/* Follow my work on section */}
