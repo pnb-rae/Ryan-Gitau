@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import Icon from "@/components/ui/icon";
 import { projects } from "@/data/projectsData";
 
 export default function ContactCTA() {
@@ -15,7 +14,7 @@ export default function ContactCTA() {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Dark Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-foreground/95 via-foreground to-foreground/90" />
+      <div className="absolute inset-0 bg-background/95" />
       
       {/* Moving Projects Background */}
       <div className="absolute inset-0 opacity-20">
@@ -59,35 +58,27 @@ export default function ContactCTA() {
           className="max-w-4xl mx-auto text-center"
         >
           {/* Eyes Icon */}
-          <motion.div
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-block mb-8"
-          >
-            <Icon name="eyes" className="w-20 h-20 mx-auto" alt="Let's connect" />
-          </motion.div>
+          <div className="text-6xl mb-6">👀</div>
 
-          <h2 className="text-5xl md:text-6xl font-bold mb-6 text-background">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Let's work together!
           </h2>
           
-          <p className="text-xl text-background/80 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
             Do you have any ideas you would love to bring to life, whether it is a landing page to drive more sales or a mega system, Reach out. I would love to walk this journey with you
           </p>
 
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.98 }}
+            className="inline-block"
           >
             <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-lg px-10 py-7 rounded-full group text-background font-semibold"
               onClick={handleContact}
+              className="group bg-foreground hover:bg-foreground/90 text-background text-base px-6 py-5 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-foreground/10"
             >
               Let's talk
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform text-amber-400" />
             </Button>
           </motion.div>
         </motion.div>
