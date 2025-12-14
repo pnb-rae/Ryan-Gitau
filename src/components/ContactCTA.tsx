@@ -14,7 +14,7 @@ export default function ContactCTA() {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Dark Background */}
-      <div className="absolute inset-0 bg-background/95" />
+      <div className="absolute inset-0 bg-gradient-to-br from-foreground/95 via-foreground to-foreground/90" />
       
       {/* Moving Projects Background */}
       <div className="absolute inset-0 opacity-20">
@@ -58,13 +58,21 @@ export default function ContactCTA() {
           className="max-w-4xl mx-auto text-center"
         >
           {/* Eyes Icon */}
-          <div className="text-6xl mb-6">👀</div>
+          <motion.div
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="inline-block mb-8"
+          >
+            <div className="text-6xl">👀</div>
+          </motion.div>
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-background">
             Let's work together!
           </h2>
           
-          <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-background/80 mb-10 max-w-2xl mx-auto leading-relaxed">
             Do you have any ideas you would love to bring to life, whether it is a landing page to drive more sales or a mega system, Reach out. I would love to walk this journey with you
           </p>
 
@@ -75,10 +83,10 @@ export default function ContactCTA() {
           >
             <Button
               onClick={handleContact}
-              className="group bg-foreground hover:bg-foreground/90 text-background text-base px-6 py-5 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-foreground/10"
+              className="group bg-primary hover:bg-primary/90 text-background text-base px-6 py-5 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-primary/20"
             >
               Let's talk
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform text-amber-400" />
+              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </motion.div>
         </motion.div>
