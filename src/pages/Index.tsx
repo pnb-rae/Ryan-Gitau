@@ -20,9 +20,9 @@ const Index = () => {
         <main className="pt-16 md:pt-20">
           <Hero />
           <About />
+          <Projects />
           <Services />
           <Statistics />
-          <Projects />
           <Testimonials />
           <Blog />
           <ContactCTA />
