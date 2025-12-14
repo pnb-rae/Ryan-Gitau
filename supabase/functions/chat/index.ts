@@ -39,7 +39,7 @@ serve(async (req) => {
             - Passionate about transforming business ideas into powerful web applications and AI Systems
             - 12 hackathon victories and proven track record of innovative solutions
             - Available for new projects
-            - Contact: ryanwaweru475@gmail.com, +254 791 010 693, +254 768 722 076
+            - Contact: ryanwaweru475@gmail.com, +254 791 010 693
             - Location: Nairobi, Kenya
             
             Be helpful, professional, and concise. Guide users to relevant sections of the portfolio when appropriate.`
