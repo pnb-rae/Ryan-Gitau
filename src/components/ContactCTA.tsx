@@ -17,12 +17,59 @@ export default function ContactCTA() {
       <div className="absolute inset-0 bg-gradient-to-br from-foreground/95 via-foreground to-foreground/90" />
       
       {/* Moving Projects Background */}
-      <div className="absolute inset-0 opacity-20">
-        <motion.div
-          className="flex gap-6 h-full items-center"
-          animate={{
-            x: [0, -2000],
+      <div className="absolute inset-0 opacity-10 overflow-hidden">
+        {/* Top row - moving right to left */}
+        <motion.div 
+          className="flex gap-8 py-4"
+          animate={{ x: ['-50%', '0%'] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 30,
+              ease: "linear",
+            },
           }}
+        >
+          {[...projects, ...projects].map((project, index) => (
+            <div key={`top-${index}`} className="flex-shrink-0 w-48 h-32 md:w-64 md:h-40 rounded-lg overflow-hidden shadow-lg">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </motion.div>
+
+        {/* Middle row - moving left to right */}
+        <motion.div 
+          className="flex gap-8 py-4 justify-end"
+          animate={{ x: ['0%', '-50%'] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 35,
+              ease: "linear",
+            },
+          }}
+        >
+          {[...projects].reverse().map((project, index) => (
+            <div key={`middle-${index}`} className="flex-shrink-0 w-40 h-28 md:w-56 md:h-36 rounded-lg overflow-hidden shadow-lg">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </motion.div>
+
+        {/* Bottom row - moving right to left */}
+        <motion.div 
+          className="flex gap-8 py-4"
+          animate={{ x: ['-60%', '0%'] }}
           transition={{
             x: {
               repeat: Infinity,
@@ -32,11 +79,8 @@ export default function ContactCTA() {
             },
           }}
         >
-          {[...projects, ...projects, ...projects].map((project, index) => (
-            <div
-              key={`${project.slug}-${index}`}
-              className="flex-shrink-0 w-[300px] h-[200px] rounded-xl overflow-hidden"
-            >
+          {[...projects, ...projects].map((project, index) => (
+            <div key={`bottom-${index}`} className="flex-shrink-0 w-36 h-24 md:w-48 md:h-32 rounded-lg overflow-hidden shadow-lg">
               <img
                 src={project.image}
                 alt={project.title}
