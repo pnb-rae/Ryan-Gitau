@@ -40,7 +40,7 @@ export default function Header() {
             onClick={handleLogoClick}
           >
             <img 
-              src="/lovable-uploads/75cd230c-2614-4c07-bfb8-31d0dd597b08.png" 
+              src="/uploads/75cd230c-2614-4c07-bfb8-31d0dd597b08.png" 
               alt="Ryan Waweru Logo" 
               className="w-20 h-20 transition-all duration-300 hover:scale-105"
             />
