@@ -83,7 +83,7 @@ export const projects: Project[] = [
     slug: "bravos",
     title: "Bravos",
     description: "A vibrant community platform where people discover and share amazing content. Bravos helps users find hidden gems across various interests, from tech innovations to creative arts. It's like having a trusted friend recommend the best content across the internet, all in one place.",
-    image: "/uploads/"bravos.png",
+    image: "/uploads/bravos.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://bravos-11.vercel.app/",
     featured: true,
@@ -91,13 +91,13 @@ export const projects: Project[] = [
     client: "Personal Project",
     role: "Full-Stack Developer",
     deliverables: ["Content Discovery", "User Profiles", "Social Sharing", "Responsive Design"],
-    gallery: ["/uploads/"bravos.png"]
+    gallery: ["/uploads/bravos.png"]
   },
   {
     slug: "az-african-store",
     title: "AZ African Store",
     description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
-    image: "/uploads/"az-african-store.png",
+    image: "/uploads/az-african-store.png",
     technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
     liveUrl: "https://azafricanstore.com/",
     featured: true,
@@ -105,13 +105,13 @@ export const projects: Project[] = [
     client: "AZ African Store",
     role: "Web Developer",
     deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
-    gallery: ["/uploads/"az-african-store.png"]
+    gallery: ["/uploads/az-african-store.png"]
   },
   {
     slug: "nexus-scale",
     title: "Nexus Scale",
     description: "A smart business growth platform that helps companies expand efficiently. Nexus Scale uses AI to identify opportunities for automation and improvement, making it easier for businesses to scale without unnecessary complexity. It's like having a team of expert consultants working around the clock to optimize your operations.",
-    image: "/uploads/"nexus-scale.png",
+    image: "/uploads/nexus-scale.png",
     technologies: ["React", "Next.js", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
     liveUrl: "https://www.nexuscale.ai/",
     featured: true,
@@ -119,13 +119,13 @@ export const projects: Project[] = [
     client: "Nexus Scale",
     role: "Full-Stack Developer",
     deliverables: ["AI Integration", "Analytics Dashboard", "Automation Tools", "API Development"],
-    gallery: ["/uploads/"nexus-scale.png"]
+    gallery: ["/uploads/nexus-scale.png"]
   },
   {
     slug: "gikomba-market",
     title: "Gikomba Market",
     description: "Bringing Kenya's famous second-hand clothing market online. Gikomba Market makes it easy to find quality pre-loved fashion at great prices, while helping local vendors reach more customers. The platform preserves the vibrant market experience while adding the convenience of online shopping.",
-    image: "/uploads/"gikomba-project.png",
+    image: "/uploads/gikomba-project.png",
     technologies: ["React", "Next.js", "TypeScript", "E-commerce", "Vercel"],
     liveUrl: "https://gikomba-beryl.vercel.app/",
     featured: true,
@@ -133,13 +133,13 @@ export const projects: Project[] = [
     client: "Gikomba Vendors",
     role: "Full-Stack Developer",
     deliverables: ["Marketplace Platform", "Vendor Onboarding", "Shopping Cart", "Order Management"],
-    gallery: ["/uploads/"gikomba-project.png"]
+    gallery: ["/uploads/gikomba-project.png"]
   },
   {
     slug: "kinywa-concept",
     title: "Kinywa Concept",
     description: "A showcase of creative web design that demonstrates how good design can make technology feel more human. Kinywa Concept turns complex ideas into beautiful, intuitive digital experiences. Each project is a testament to how thoughtful design can solve real problems while delighting users.",
-    image: "/uploads/"ec3738b8-e1bf-45ca-a11f-c4a96b449759.png",
+    image: "/uploads/ec3738b8-e1bf-45ca-a11f-c4a96b449759.png",
     technologies: ["React", "JavaScript", "CSS3", "HTML5", "Netlify"],
     liveUrl: "https://kinywa-concept.netlify.app/",
     featured: true,
@@ -147,13 +147,13 @@ export const projects: Project[] = [
     client: "Kinywa Concept",
     role: "Frontend Developer",
     deliverables: ["UI/UX Design", "Responsive Layout", "Interactive Elements", "Animation"],
-    gallery: ["/uploads/"ec3738b8-e1bf-45ca-a11f-c4a96b449759.png"]
+    gallery: ["/uploads/ec3738b8-e1bf-45ca-a11f-c4a96b449759.png"]
   },
   {
     slug: "thrills-spills-tours",
     title: "Thrills Spills Tours",
     description: "Your gateway to unforgettable adventures around the world. Thrills & Spills Tours makes it easy to discover and book exciting experiences, from mountain treks to scuba diving. The platform helps adventure seekers find their next challenge and local guides share their expertise with a global audience.",
-    image: "/uploads/"e26eacb4-e786-42fa-8979-02b917ee60ec.png",
+    image: "/uploads/e26eacb4-e786-42fa-8979-02b917ee60ec.png",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
     liveUrl: "https://www.thrillsspillstours.com/",
     featured: true,
@@ -161,7 +161,7 @@ export const projects: Project[] = [
     client: "Thrills Spills Tours",
     role: "Full-Stack Developer",
     deliverables: ["Booking System", "Tour Management", "Payment Gateway", "Customer Portal"],
-    gallery: ["/uploads/"e26eacb4-e786-42fa-8979-02b917ee60ec.png"]
+    gallery: ["/uploads/e26eacb4-e786-42fa-8979-02b917ee60ec.png"]
   },
   {
     slug: "zero22-thika",
