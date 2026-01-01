@@ -167,7 +167,7 @@ export const projects: Project[] = [
     slug: "zero22-thika",
     title: "Zero22 Thika",
     description: "A digital hub for local businesses to thrive. Zero22 Thika provides essential tools and connections that help small businesses grow. From managing services to connecting with customers, the platform simplifies the complex world of business management for local entrepreneurs.",
-    image: "/uploads/"f9fab85a-a0a8-401f-9208-cdb6d7464c07.png",
+    image: "/uploads/f9fab85a-a0a8-401f-9208-cdb6d7464c07.png",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vercel", "API"],
     liveUrl: "https://zero22thika.vercel.app/",
     featured: true,
@@ -175,13 +175,13 @@ export const projects: Project[] = [
     client: "Zero22 Thika",
     role: "Full-Stack Developer",
     deliverables: ["Business Directory", "Service Listings", "Management Tools", "API Integration"],
-    gallery: ["/uploads/"f9fab85a-a0a8-401f-9208-cdb6d7464c07.png"]
+    gallery: ["/uploads/f9fab85a-a0a8-401f-9208-cdb6d7464c07.png"]
   },
   {
     slug: "pure-fruit",
     title: "Pure Fruit",
     description: "Farm-fresh fruits delivered straight to your door. Pure Fruit connects health-conscious consumers with local farmers, ensuring you get the freshest seasonal produce while supporting sustainable agriculture. The platform makes eating healthy convenient and helps small-scale farmers reach more customers.",
-    image: "/uploads/"7f1309d7-e911-4a4b-a77e-3379910cf797.png",
+    image: "/uploads/7f1309d7-e911-4a4b-a77e-3379910cf797.png",
     technologies: ["React", "Next.js", "TypeScript", "Commerce", "Vercel"],
     liveUrl: "https://purefruit.vercel.app/",
     featured: true,
@@ -189,7 +189,7 @@ export const projects: Project[] = [
     client: "Pure Fruit",
     role: "Full-Stack Developer",
     deliverables: ["E-Commerce Platform", "Subscription System", "Delivery Tracking", "Farmer Portal"],
-    gallery: ["/uploads/"7f1309d7-e911-4a4b-a77e-3379910cf797.png"]
+    gallery: ["/uploads/7f1309d7-e911-4a4b-a77e-3379910cf797.png"]
   },
   {
     slug: "thinkopal-development",
