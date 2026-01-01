@@ -21,7 +21,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center text-white font-bold text-lg">
                 RW
               </div>
-              <span className="text-xl font-bold text-gradient">Ryan Waweru</span>
+              <span className="text-xl font-bold text-gradient">Ryan Gitau</span>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
               Full-stack developer and AI enthusiast passionate about building innovative digital solutions 
