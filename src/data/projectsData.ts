@@ -1,3 +1,4 @@
+// Project data for Ryan Gitau's portfolio
 import { ProjectMetadata } from "@/lib/generateProjectContent";
 
 export interface Project extends ProjectMetadata {
