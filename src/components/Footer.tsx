@@ -29,25 +29,34 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <Button 
+                asChild
                 variant="outline" 
                 size="icon"
                 className="hover:bg-primary hover:text-primary-foreground hover:border-primary"
               >
-                <Github className="w-5 h-5" />
+                <a href="https://github.com/ryan-gitau" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5" />
+                </a>
               </Button>
               <Button 
+                asChild
                 variant="outline" 
                 size="icon"
                 className="hover:bg-primary hover:text-primary-foreground hover:border-primary"
               >
-                <Linkedin className="w-5 h-5" />
+                <a href="https://www.linkedin.com/in/ryan-gitau/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </Button>
               <Button 
+                asChild
                 variant="outline" 
                 size="icon"
                 className="hover:bg-primary hover:text-primary-foreground hover:border-primary"
               >
-                <Twitter className="w-5 h-5" />
+                <a href="https://twitter.com/ryan_gitau" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>
