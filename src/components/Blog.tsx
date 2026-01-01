@@ -11,7 +11,7 @@ const blogPosts = [
     date: "December 15, 2024",
     readTime: "5 min read",
     category: "Backend",
-    image: "/lovable-uploads/d56bc4e4-5073-4663-8241-3b53d940fe6a.png",
+    image: "/uploads/d56bc4e4-5073-4663-8241-3b53d940fe6a.png",
     link: "https://medium.com/@ryanwaweru475/seo-optimized-blog-mastering-backend-development-with-node-js-874bcdb2bd97"
   },
   {
@@ -21,7 +21,7 @@ const blogPosts = [
     date: "June 10, 2025",
     readTime: "7 min read",
     category: "Artificial Intelligence",
-    image: "/lovable-uploads/1ec68258-a54b-4de8-9cc9-0b2f49b84094.png",
+    image: "/uploads/1ec68258-a54b-4de8-9cc9-0b2f49b84094.png",
     link: "https://medium.com/@ryanwaweru475/ai-in-everyday-applications-a-practical-guide-e8e4cf79621a"
   },
   {
@@ -31,7 +31,7 @@ const blogPosts = [
     date: "July 5, 2025",
     readTime: "6 min read",
     category: "Frontend",
-    image: "/lovable-uploads/74226926-028a-47e4-bdad-10dce5efef70.png",
+    image: "/uploads/74226926-028a-47e4-bdad-10dce5efef70.png",
     link: "https://medium.com/@ryanwaweru475/seo-optimized-blog-react-best-practices-for-2025-e536c5d17850"
   }
 ]
