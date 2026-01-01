@@ -12,7 +12,7 @@ export const projects: Project[] = [
     slug: "stay-africa",
     title: "Stay Africa",
     description: "A one-stop travel platform that makes it easy to discover and book unique accommodations across Africa. Whether you're looking for a beachfront villa, safari lodge, or city apartment, Stay Africa connects travelers with authentic local experiences. The platform helps boost tourism by showcasing Africa's diverse destinations while providing a seamless booking experience.",
-    image: "/uploads/"stay-africa.png",
+    image: "/uploads/stay-africa.png",
     technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "https://stay-africa.vercel.app/",
     featured: true,
@@ -20,13 +20,13 @@ export const projects: Project[] = [
     client: "Personal Project",
     role: "Full-Stack Developer",
     deliverables: ["Property Listings", "Booking System", "Travel Guides", "Responsive Design"],
-    gallery: ["/uploads/"stay-africa.png"]
+    gallery: ["/uploads/stay-africa.png"]
   },
   {
     slug: "ipmtti",
     title: "IPMTTI",
     description: "A modern website for Kenya's leading technical training institute, making it easy for students to explore courses in driving, engineering, and hospitality. The platform streamlines course registration and provides clear information about career opportunities, helping bridge the skills gap in technical fields across East Africa.",
-    image: "/uploads/"ipmtti-project.png",
+    image: "/uploads/ipmtti-project.png",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
     liveUrl: "https://ipmtti.co.ke/",
     featured: true,
@@ -34,13 +34,13 @@ export const projects: Project[] = [
     client: "IPMTTI Institute",
     role: "Full-Stack Developer",
     deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
-    gallery: ["/uploads/"ipmtti-project.png"]
+    gallery: ["/uploads/ipmtti-project.png"]
   },
   {
     slug: "home-deco",
     title: "Home Deco",
     description: "An online store that brings beautiful, high-quality home decor within everyone's reach. Home Deco helps people transform their living spaces with carefully selected furniture and accessories. The platform makes it simple to visualize how items will look in your home, making interior design more accessible and enjoyable for everyone.",
-    image: "/uploads/"home-deco.png",
+    image: "/uploads/home-deco.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://home-deco-sigma.vercel.app/",
     featured: true,
@@ -48,13 +48,13 @@ export const projects: Project[] = [
     client: "Personal Project",
     role: "Frontend Developer",
     deliverables: ["Product Showcase", "Shopping Experience", "Responsive Design", "UI/UX Implementation"],
-    gallery: ["/uploads/"home-deco.png"]
+    gallery: ["/uploads/home-deco.png"]
   },
   {
     slug: "nova-cart",
     title: "Nova Cart",
     description: "A modern online shopping experience that makes finding and buying products effortless. Nova Cart combines style with functionality, offering a smooth journey from browsing to checkout. The platform helps small businesses grow by providing them with professional e-commerce tools to showcase their products effectively.",
-    image: "/uploads/"nova-cart.png",
+    image: "/uploads/nova-cart.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://nova-cart-delta.vercel.app/",
     featured: true,
@@ -62,13 +62,13 @@ export const projects: Project[] = [
     client: "Personal Project",
     role: "Full-Stack Developer",
     deliverables: ["Product Catalog", "Shopping Cart", "Checkout System", "Responsive Design"],
-    gallery: ["/uploads/"nova-cart.png"]
+    gallery: ["/uploads/nova-cart.png"]
   },
   {
     slug: "tal3nt",
     title: "Tal3nt",
     description: "A smarter way for companies to find the perfect candidates. Tal3nt uses smart matching to connect businesses with skilled professionals, making hiring faster and more efficient. The platform helps job seekers highlight their skills and helps employers find the right talent without the usual recruitment hassle.",
-    image: "/uploads/"tal3nt.png",
+    image: "/uploads/tal3nt.png",
     technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "AWS"],
     liveUrl: "https://www.tal3nt.xyz/",
     featured: true,
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     client: "Tal3nt",
     role: "Full-Stack Developer",
     deliverables: ["User Authentication", "Candidate Matching", "Job Posting System", "Analytics Dashboard"],
-    gallery: ["/uploads/"tal3nt.png"]
+    gallery: ["/uploads/tal3nt.png"]
   },
   {
     slug: "bravos",
@@ -194,7 +194,7 @@ export const projects: Project[] = [
     slug: "thinkopal-development",
     title: "ThinkOpal Development",
     description: "A technology partner that transforms ideas into powerful digital solutions. ThinkOpal Development specializes in creating custom software that helps businesses work smarter. From concept to launch, we focus on building tools that solve real problems with clean, efficient code.",
-    image: "/uploads/"3b3c2315-8f59-4031-888a-244c2c531a64.png",
+    image: "/uploads/3b3c2315-8f59-4031-888a-244c2c531a64.png",
     technologies: ["React", "JavaScript", "Node.js", "CSS3", "Netlify"],
     liveUrl: "https://thinkopal-development.netlify.app/",
     featured: true,
@@ -202,13 +202,13 @@ export const projects: Project[] = [
     client: "ThinkOpal",
     role: "Full-Stack Developer",
     deliverables: ["Company Website", "Portfolio Showcase", "Case Studies", "Contact System"],
-    gallery: ["/uploads/"3b3c2315-8f59-4031-888a-244c2c531a64.png"]
+    gallery: ["/uploads/3b3c2315-8f59-4031-888a-244c2c531a64.png"]
   },
   {
     slug: "peoples-choice-awards",
     title: "People's Choice Awards",
     description: "Celebrating Kenya's most inspiring individuals and organizations. The People's Choice Awards platform makes it easy for the public to nominate and vote for their favorites in various categories. The system ensures a fair and transparent voting process while creating excitement around the annual awards ceremony.",
-    image: "/uploads/"1cfcf7c6-f778-4c50-bd29-ec4bfc237e4d.png",
+    image: "/uploads/1cfcf7c6-f778-4c50-bd29-ec4bfc237e4d.png",
     technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Stripe"],
     liveUrl: "https://www.peopleschoiceawards.africa/",
     featured: true,
@@ -216,13 +216,13 @@ export const projects: Project[] = [
     client: "PCA Africa",
     role: "Lead Developer",
     deliverables: ["Voting System", "Event Management", "Nominee Portal", "Payment Integration"],
-    gallery: ["/uploads/"1cfcf7c6-f778-4c50-bd29-ec4bfc237e4d.png"]
+    gallery: ["/uploads/1cfcf7c6-f778-4c50-bd29-ec4bfc237e4d.png"]
   },
   {
     slug: "artistry",
     title: "Artistry",
     description: "World Art Day celebration platform inspired by Leonardo da Vinci. Showcasing featured artworks and promoting creativity, expression, and cultural diversity through digital art galleries.",
-    image: "/uploads/"artistry-project.png",
+    image: "/uploads/artistry-project.png",
     technologies: ["React", "JavaScript", "CSS3", "Art Gallery", "Vercel"],
     liveUrl: "https://artistry-leo.vercel.app/",
     featured: true,
@@ -230,13 +230,13 @@ export const projects: Project[] = [
     client: "Artistry Platform",
     role: "Frontend Developer",
     deliverables: ["Gallery System", "Artist Profiles", "Artwork Showcase", "Responsive Design"],
-    gallery: ["/uploads/"artistry-project.png"]
+    gallery: ["/uploads/artistry-project.png"]
   },
   {
     slug: "stay-africa",
     title: "Stay Africa",
     description: "Discover and book unique accommodations across Africa. From luxury safari lodges to beachfront villas, find your perfect African getaway with Stay Africa's curated selection of properties.",
-    image: "/uploads/"stay-africa.png",
+    image: "/uploads/stay-africa.png",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://stay-africa.vercel.app/",
     featured: true,
@@ -244,6 +244,6 @@ export const projects: Project[] = [
     client: "Stay Africa",
     role: "Full-Stack Developer",
     deliverables: ["Property Listings", "Booking System", "User Authentication", "Payment Integration"],
-    gallery: ["/uploads/"stay-africa.png"]
+    gallery: ["/uploads/stay-africa.png"]
   }
 ];
