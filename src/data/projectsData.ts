@@ -36,6 +36,34 @@ export const projects: Project[] = [
     ]
   },
   {
+    slug: "az-african-store",
+    title: "AZ African Store",
+    description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
+    image: "/uploads/az-african-store.png",
+    technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
+    liveUrl: "https://azafricanstore.com/",
+    featured: true,
+    category: "E-Commerce",
+    client: "AZ African Store",
+    role: "Web Developer",
+    deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
+    gallery: ["/uploads/az-african-store.png"]
+  },
+  {
+    slug: "ipmtti",
+    title: "IPMTTI",
+    description: "A modern website for Kenya's leading technical training institute, making it easy for students to explore courses in driving, engineering, and hospitality. The platform streamlines course registration and provides clear information about career opportunities, helping bridge the skills gap in technical fields across East Africa.",
+    image: "/uploads/ipmtti-project.png",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
+    liveUrl: "https://ipmtti.co.ke/",
+    featured: true,
+    category: "Education Platform",
+    client: "IPMTTI Institute",
+    role: "Full-Stack Developer",
+    deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
+    gallery: ["/uploads/ipmtti-project.png"]
+  },
+  {
     slug: "stay-africa",
     title: "Stay Africa",
     description: "A one-stop travel platform that makes it easy to discover and book unique accommodations across Africa. Whether you're looking for a beachfront villa, safari lodge, or city apartment, Stay Africa connects travelers with authentic local experiences. The platform helps boost tourism by showcasing Africa's diverse destinations while providing a seamless booking experience.",
