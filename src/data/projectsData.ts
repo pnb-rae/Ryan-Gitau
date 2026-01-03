@@ -10,6 +10,31 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
+    slug: "asake-kenya",
+    title: "Asake Kenya - Tukutane Entertainment",
+    description: "A premium event ticketing platform for Tukutane Entertainment, managing ticket sales for the Asake Live in Nairobi concert. The platform handles thousands of transactions with multiple ticket tiers and payment methods, providing a seamless booking experience for music fans across East Africa.",
+    image: "/uploads/asake-kenya.png",
+    technologies: ["Elixir", "Phoenix LiveView", "PostgreSQL", "M-PESA API", "Stripe"],
+    liveUrl: "https://asakekenya.com/",
+    featured: true,
+    category: "Event Management & Ticketing",
+    client: "Tukutane Entertainment",
+    role: "Full-Stack Developer & Event Platform Architect",
+    deliverables: [
+      "Event ticketing platform",
+      "Real-time ticket sales system",
+      "Multi-tier pricing system",
+      "Payment gateway integration",
+      "Responsive event landing page",
+      "Analytics dashboard",
+      "Email notification system"
+    ],
+    gallery: [
+      "/uploads/asake-kenya.png",
+      "/uploads/asake-kenya-tickets.png"
+    ]
+  },
+  {
     slug: "stay-africa",
     title: "Stay Africa",
     description: "A one-stop travel platform that makes it easy to discover and book unique accommodations across Africa. Whether you're looking for a beachfront villa, safari lodge, or city apartment, Stay Africa connects travelers with authentic local experiences. The platform helps boost tourism by showcasing Africa's diverse destinations while providing a seamless booking experience.",
