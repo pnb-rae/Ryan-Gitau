@@ -31,7 +31,8 @@ export const projects: Project[] = [
     ],
     gallery: [
       "/uploads/asake-kenya.png",
-      "/uploads/asake-kenya-tickets.png"
+      "/uploads/asake-kenya-tickets.png",
+      "/uploads/asake-kenya-tophits.png"
     ]
   },
   {
