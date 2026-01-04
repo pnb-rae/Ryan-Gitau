@@ -78,20 +78,6 @@ export const projects: Project[] = [
     gallery: ["/uploads/stay-africa.png"]
   },
   {
-    slug: "ipmtti",
-    title: "IPMTTI",
-    description: "A modern website for Kenya's leading technical training institute, making it easy for students to explore courses in driving, engineering, and hospitality. The platform streamlines course registration and provides clear information about career opportunities, helping bridge the skills gap in technical fields across East Africa.",
-    image: "/uploads/ipmtti-project.png",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "CMS"],
-    liveUrl: "https://ipmtti.co.ke/",
-    featured: true,
-    category: "Education Platform",
-    client: "IPMTTI Institute",
-    role: "Full-Stack Developer",
-    deliverables: ["Website Design", "CMS Integration", "Enrollment System", "Course Management"],
-    gallery: ["/uploads/ipmtti-project.png"]
-  },
-  {
     slug: "home-deco",
     title: "Home Deco",
     description: "An online store that brings beautiful, high-quality home decor within everyone's reach. Home Deco helps people transform their living spaces with carefully selected furniture and accessories. The platform makes it simple to visualize how items will look in your home, making interior design more accessible and enjoyable for everyone.",
@@ -146,34 +132,6 @@ export const projects: Project[] = [
     role: "Full-Stack Developer",
     deliverables: ["Content Discovery", "User Profiles", "Social Sharing", "Responsive Design"],
     gallery: ["/uploads/bravos.png"]
-  },
-  {
-    slug: "az-african-store",
-    title: "AZ African Store",
-    description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
-    image: "/uploads/az-african-store.png",
-    technologies: ["E-commerce", "WooCommerce", "WordPress", "Payment Gateway", "Responsive Design"],
-    liveUrl: "https://azafricanstore.com/",
-    featured: true,
-    category: "E-Commerce",
-    client: "AZ African Store",
-    role: "Web Developer",
-    deliverables: ["E-commerce Platform", "Product Management", "Checkout System", "Mobile Optimization"],
-    gallery: ["/uploads/az-african-store.png"]
-  },
-  {
-    slug: "nexus-scale",
-    title: "Nexus Scale",
-    description: "A smart business growth platform that helps companies expand efficiently. Nexus Scale uses AI to identify opportunities for automation and improvement, making it easier for businesses to scale without unnecessary complexity. It's like having a team of expert consultants working around the clock to optimize your operations.",
-    image: "/uploads/nexus-scale.png",
-    technologies: ["React", "Next.js", "TypeScript", "AI/ML", "Node.js", "PostgreSQL"],
-    liveUrl: "https://www.nexuscale.ai/",
-    featured: true,
-    category: "AI Platform",
-    client: "Nexus Scale",
-    role: "Full-Stack Developer",
-    deliverables: ["AI Integration", "Analytics Dashboard", "Automation Tools", "API Development"],
-    gallery: ["/uploads/nexus-scale.png"]
   },
   {
     slug: "gikomba-market",
@@ -286,19 +244,5 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     deliverables: ["Gallery System", "Artist Profiles", "Artwork Showcase", "Responsive Design"],
     gallery: ["/uploads/artistry-project.png"]
-  },
-  {
-    slug: "stay-africa",
-    title: "Stay Africa",
-    description: "Discover and book unique accommodations across Africa. From luxury safari lodges to beachfront villas, find your perfect African getaway with Stay Africa's curated selection of properties.",
-    image: "/uploads/stay-africa.png",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
-    liveUrl: "https://stay-africa.vercel.app/",
-    featured: true,
-    category: "Travel & Hospitality",
-    client: "Stay Africa",
-    role: "Full-Stack Developer",
-    deliverables: ["Property Listings", "Booking System", "User Authentication", "Payment Integration"],
-    gallery: ["/uploads/stay-africa.png"]
   }
 ];
