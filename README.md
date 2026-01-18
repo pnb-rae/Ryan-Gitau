@@ -94,7 +94,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 Email: your.email@example.comyourusername
 - 💼 [LinkedIn]https://www.linkedin.com/in/ryan-waweru/)
 - 🐦 [Twitter](https://x.com/PnbRae)
-- 💻 [GitHub](https://github.com/yourusername)
+- 💻 [GitHub](https://github.com/pnb-rae)
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 n8n
