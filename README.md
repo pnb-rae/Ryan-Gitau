@@ -93,8 +93,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🌐 [Portfolio Website](https://ryan-waweru.vercel.app/)
 - 📧 Email: your.email@example.com
 - 💼 [LinkedIn](https://linkedin.com/in/yourusername)
-- 🐦 [Twitter](https://twitter.com/yourtwitterhandle)
+- 🐦 [Twitter](https://x.com/PnbRae)
 - 💻 [GitHub](https://github.com/yourusername)
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-nnn
+n8n
