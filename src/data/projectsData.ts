@@ -10,30 +10,6 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
-    slug: "barber-kings-kenya",
-    title: "Barber Kings Kenya",
-    description: "A modern, responsive website for Barber Kings Kenya, showcasing their premium barbering services, booking system, and portfolio. The platform helps customers discover services, view the barber team, and book appointments online with ease.",
-    image: "/uploads/barber-kings-kenya.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB"],
-    liveUrl: "https://barberkingskenya.co.ke/",
-    featured: true,
-    category: "Service Business Website",
-    client: "Barber Kings Kenya",
-    role: "Full-Stack Developer & UI/UX Designer",
-    deliverables: [
-      "Responsive website design",
-      "Online booking system",
-      "Service catalog",
-      "Barber portfolio",
-      "Contact form with email notifications",
-      "SEO optimization",
-      "Performance optimization"
-    ],
-    gallery: [
-      "/uploads/barber-kings-kenya.png"
-    ]
-  },
-  {
     slug: "az-african-store",
     title: "AZ African Store",
     description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
@@ -72,8 +48,32 @@ export const projects: Project[] = [
     category: "Travel & Accommodation",
     client: "Personal Project",
     role: "Full-Stack Developer",
-    deliverables: ["Property Listings", "Booking System", "Travel Guides", "Responsive Design"],
+    deliverables: ["Accommodation Listings", "Booking System", "User Authentication", "Payment Processing"],
     gallery: ["/uploads/stay-africa.png"]
+  },
+  {
+    slug: "barber-kings-kenya",
+    title: "Barber Kings Kenya",
+    description: "A modern, responsive website for Barber Kings Kenya, showcasing their premium barbering services, booking system, and portfolio. The platform helps customers discover services, view the barber team, and book appointments online with ease.",
+    image: "/uploads/barber-kings-kenya.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB"],
+    liveUrl: "https://barberkingskenya.co.ke/",
+    featured: true,
+    category: "Service Business Website",
+    client: "Barber Kings Kenya",
+    role: "Full-Stack Developer & UI/UX Designer",
+    deliverables: [
+      "Responsive website design",
+      "Online booking system",
+      "Service catalog",
+      "Barber portfolio",
+      "Contact form with email notifications",
+      "SEO optimization",
+      "Performance optimization"
+    ],
+    gallery: [
+      "/uploads/barber-kings-kenya.png"
+    ]
   },
   {
     slug: "home-deco",
