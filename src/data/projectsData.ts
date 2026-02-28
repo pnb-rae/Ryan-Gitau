@@ -242,5 +242,19 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     deliverables: ["Gallery System", "Artist Profiles", "Artwork Showcase", "Responsive Design"],
     gallery: ["/uploads/artistry-project.png"]
+  },
+  {
+    slug: "asake-kenya",
+    title: "Asake Kenya",
+    description: "Official ticketing platform for Asake's Kenya concerts. The platform provides a seamless experience for fans to purchase tickets, view event details, and stay updated with the latest concert information. Built to handle high traffic and ensure smooth ticket booking for one of Nigeria's biggest Afrobeats artists.",
+    image: "/uploads/asake-kenya.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Payment Gateway", "Vercel"],
+    liveUrl: "https://asakekenya.com/",
+    featured: true,
+    category: "Event & Ticketing",
+    client: "Asake Kenya Concerts",
+    role: "Full-Stack Developer",
+    deliverables: ["Ticketing System", "Payment Integration", "Event Management", "User Authentication", "Mobile Optimization"],
+    gallery: ["/uploads/asake-kenya.png", "/uploads/asake-kenya-tickets.png", "/uploads/asake-kenya-tophits.png"]
   }
 ];
