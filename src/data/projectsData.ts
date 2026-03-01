@@ -27,7 +27,7 @@ export const projects: Project[] = [
     slug: "shera-mugo",
     title: "Shera Mugo",
     description: "Personal portfolio website for Shera Mugo, showcasing creative work and weekly frames. The platform features a clean, modern design with smooth animations and responsive layout, highlighting Shera's journey through her 20s with stunning visual storytelling and engaging content presentation.",
-    image: "/uploads/artistry-project.png",
+    image: "/uploads/bravos.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     liveUrl: "https://shera-mugo.vercel.app/",
     featured: true,
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     client: "Shera Mugo",
     role: "Full-Stack Developer & UI/UX Designer",
     deliverables: ["Portfolio Design", "Content Management", "Responsive Layout", "Animation Effects", "Performance Optimization"],
-    gallery: ["/uploads/artistry-project.png"]
+    gallery: ["/uploads/bravos.png"]
   },
   {
     slug: "az-african-store",
