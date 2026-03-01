@@ -10,6 +10,34 @@ export interface Project extends ProjectMetadata {
 
 export const projects: Project[] = [
   {
+    slug: "asake-kenya",
+    title: "Asake Kenya",
+    description: "Official ticketing platform for Asake's Kenya concerts. The platform provides a seamless experience for fans to purchase tickets, view event details, and stay updated with the latest concert information. Built to handle high traffic and ensure smooth ticket booking for one of Nigeria's biggest Afrobeats artists.",
+    image: "/uploads/asake-kenya.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Payment Gateway", "Vercel"],
+    liveUrl: "https://asakekenya.com/",
+    featured: true,
+    category: "Event & Ticketing",
+    client: "Asake Kenya Concerts",
+    role: "Full-Stack Developer",
+    deliverables: ["Ticketing System", "Payment Integration", "Event Management", "User Authentication", "Mobile Optimization"],
+    gallery: ["/uploads/asake-kenya.png", "/uploads/asake-kenya-tickets.png", "/uploads/asake-kenya-tophits.png"]
+  },
+  {
+    slug: "shera-mugo",
+    title: "Shera Mugo",
+    description: "Personal portfolio website for Shera Mugo, showcasing creative work and weekly frames. The platform features a clean, modern design with smooth animations and responsive layout, highlighting Shera's journey through her 20s with stunning visual storytelling and engaging content presentation.",
+    image: "/uploads/artistry-project.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://shera-mugo.vercel.app/",
+    featured: true,
+    category: "Personal Portfolio",
+    client: "Shera Mugo",
+    role: "Full-Stack Developer & UI/UX Designer",
+    deliverables: ["Portfolio Design", "Content Management", "Responsive Layout", "Animation Effects", "Performance Optimization"],
+    gallery: ["/uploads/artistry-project.png"]
+  },
+  {
     slug: "az-african-store",
     title: "AZ African Store",
     description: "A taste of home for the African community in the UK. AZ African Store brings authentic African ingredients right to your doorstep, making it easy to cook traditional meals with fresh, high-quality products. The platform supports local African producers while helping the diaspora stay connected to their culinary roots.",
@@ -242,19 +270,5 @@ export const projects: Project[] = [
     role: "Frontend Developer",
     deliverables: ["Gallery System", "Artist Profiles", "Artwork Showcase", "Responsive Design"],
     gallery: ["/uploads/artistry-project.png"]
-  },
-  {
-    slug: "asake-kenya",
-    title: "Asake Kenya",
-    description: "Official ticketing platform for Asake's Kenya concerts. The platform provides a seamless experience for fans to purchase tickets, view event details, and stay updated with the latest concert information. Built to handle high traffic and ensure smooth ticket booking for one of Nigeria's biggest Afrobeats artists.",
-    image: "/uploads/asake-kenya.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Payment Gateway", "Vercel"],
-    liveUrl: "https://asakekenya.com/",
-    featured: true,
-    category: "Event & Ticketing",
-    client: "Asake Kenya Concerts",
-    role: "Full-Stack Developer",
-    deliverables: ["Ticketing System", "Payment Integration", "Event Management", "User Authentication", "Mobile Optimization"],
-    gallery: ["/uploads/asake-kenya.png", "/uploads/asake-kenya-tickets.png", "/uploads/asake-kenya-tophits.png"]
   }
 ];
